@@ -55,7 +55,7 @@ Public Property Get Size(Optional piType as iTypeEnum = iTypeEnum.Unknown) as In
     case else
       '--> Raise Error
   end select
-End Function
+ End Property
 
 
 Public Function From(ByRef x as variant) as stdPointer
